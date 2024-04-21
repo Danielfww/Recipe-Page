@@ -1,0 +1,141 @@
+html {
+  font-size:16px;
+}
+
+
+body {
+  background:hsl(30, 54%, 90%);
+  width:1440px;
+  height:1955;
+  margin-top:125px;
+  margin-bottom:125px;
+}
+
+.container {
+  background:white;
+  width:740px;
+  height:1715px;
+  border:black solid 1px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:15px;
+}
+
+picture{
+  margin:42px;
+  display:flex;
+  border:black solid 1px;
+  height:300px;
+  border-radius:15px;
+}
+
+.omlette {
+  border-radius:15px;
+  width:100%;
+}
+
+.recipe{
+  padding-top:30px;
+  position:relative;
+  top:-32px;
+  margin:42px;
+  height:1283px;
+  border:black solid 1px;
+  border-radius:15px;
+  
+}
+ 
+h1 {
+  text-align:left;
+  font-size:36px;
+  font-family:"Young Serif";
+  font-weight:400;
+}
+
+p {
+  font-size:16px;
+  font-family:Outfit;
+}
+.prep {
+  line-height:25px;
+  position:relative;
+  top:25px;
+  height:185px;
+  border:black solid 1px;
+  background: hsl(330, 100%, 98%);
+  border-radius:15px;
+}
+
+#prep2 {
+  font-size:22px;
+  color:hsl(332, 51%, 32%);
+  position:relative;
+  font-family:Outfit;
+  font-weight:600;
+  line-height:25px;
+  line-height:35px;
+  
+}
+.prep li {
+  font-size:16px;
+  color:black;
+  font-weight:400;
+  font-family:Outfit;
+  
+  
+}
+
+h2 {
+  color:hsl(14, 45%, 36%);
+  font-family:"Young Serif";
+  font-weight:400;
+}
+
+#prep3 {
+  line-height:30px;
+  color:hsl(332, 51%, 32%);
+  font-weight:500;
+  font-size:26px;
+  font-family:"Young Serif"
+}
+
+#prep3 li {
+  font-family:Outfit;
+  font-weight:400;
+  font-size:16px;
+  color:black;
+}
+
+hr {
+  border:1px hsl(30, 18%, 87%) solid;
+}
+
+#prep4 {
+  line-height:30px;
+  color:hsl(332, 51%, 32%);
+  font-weight:500;
+  font-size:26px;
+  font-family:"Young Serif"
+}
+
+#prep4 li {
+  font-family:Outfit;
+  font-weight:400;
+  font-size:16px;
+  color:hsl(24, 5%, 18%);
+}
+
+.prep5 {
+   line-height:30px;
+  color:hsl(332, 51%, 32%);
+  font-weight:500;
+  font-size:26px;
+  font-family:"Young Serif"
+}
+
+.prep-p {
+  font-family:Outfit;
+  font-weight:400;
+  font-size:16px;
+  color:hsl(24, 5%, 18%); 
+}
