@@ -24,7 +24,6 @@ body {
 picture{
   margin:42px;
   display:flex;
-  border:black solid 1px;
   height:300px;
   border-radius:15px;
 }
@@ -46,41 +45,60 @@ picture{
 }
  
 h1 {
+  position:relative;
+  top:-40px;
   text-align:left;
-  font-size:36px;
+  font-size:40px;
   font-family:"Young Serif";
   font-weight:400;
 }
 
 p {
+  position:relative;
+  top:-46px;
   font-size:16px;
   font-family:Outfit;
+  color:hsl(24, 5%, 18%);
+  line-height:1.5em;
 }
 .prep {
-  line-height:25px;
+  line-height:1.7rem;
   position:relative;
-  top:25px;
   height:185px;
   border:black solid 1px;
   background: hsl(330, 100%, 98%);
   border-radius:15px;
+  position:relative;
+  top:-35px;
 }
 
+
+
+#li {
+  line-height:1.2;
+  color:hsl(24, 5%, 18%);
+  
+}
+
+
 #prep2 {
-  font-size:22px;
+  font-size:20px;
   color:hsl(332, 51%, 32%);
   position:relative;
   font-family:Outfit;
   font-weight:600;
-  line-height:25px;
-  line-height:35px;
-  
+  left:-20px;
+  top:8px;
 }
 .prep li {
-  font-size:16px;
+  font-size:16.4px;
   color:black;
   font-weight:400;
   font-family:Outfit;
+  position:relative;
+  left:20px;
+  margin:12px;
+  top:5px;
   
   
 }
