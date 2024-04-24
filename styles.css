@@ -243,13 +243,13 @@ table {
 }
 
 
-@media (max-width: 455px) {
+@media (max-width: 475px) {
   
   
   body{
   margin:0 auto;
   padding:0 auto;
-  max-width:455px;
+  max-width:475px;
   height:2040px;
  
   }
@@ -258,7 +258,7 @@ table {
     display:grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns:1fr;
-    width:455px;
+    width:475px;
     
   }
   
