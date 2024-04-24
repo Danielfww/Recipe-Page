@@ -6,19 +6,19 @@ html {
 body {
   background:hsl(30, 54%, 90%);
   width:1440px;
-  height:1955;
-  margin-top:125px;
-  margin-bottom:125px;
+  max-height:1954px;
+  margin-top:122px;
+  margin-bottom:122px;
 }
 
 .container {
   background:white;
   width:740px;
-  height:1715px;
-  border:black solid 1px;
+  height:1710px;
+  padding:1px;
   margin-left:auto;
   margin-right:auto;
-  border-radius:15px;
+  border-radius:20px;
 }
 
 picture{
@@ -37,16 +37,15 @@ picture{
   padding-top:30px;
   position:relative;
   top:-32px;
-  margin:42px;
+  margin:40px;
   height:1283px;
-  border:black solid 1px;
   border-radius:15px;
   
 }
  
 h1 {
   position:relative;
-  top:-40px;
+  top:-39px;
   text-align:left;
   font-size:40px;
   font-family:"Young Serif";
@@ -55,7 +54,7 @@ h1 {
 
 p {
   position:relative;
-  top:-46px;
+  top:-49px;
   font-size:16px;
   font-family:Outfit;
   color:hsl(24, 5%, 18%);
@@ -65,10 +64,8 @@ p {
   line-height:1.7rem;
   position:relative;
   height:185px;
-  border:black solid 1px;
   background: hsl(330, 100%, 98%);
   border-radius:15px;
-  position:relative;
   top:-35px;
 }
 
@@ -87,8 +84,8 @@ p {
   position:relative;
   font-family:Outfit;
   font-weight:600;
-  left:-20px;
-  top:8px;
+  left:0px;
+  top:21px;
 }
 .prep li {
   font-size:16.4px;
@@ -99,8 +96,13 @@ p {
   left:20px;
   margin:12px;
   top:5px;
-  
-  
+  padding-left:20px;
+}
+
+
+.prep li::marker {
+  color:hsl(332, 51%, 32%);
+ 
 }
 
 h2 {
@@ -110,22 +112,40 @@ h2 {
 }
 
 #prep3 {
-  line-height:30px;
   color:hsl(332, 51%, 32%);
   font-weight:500;
-  font-size:26px;
-  font-family:"Young Serif"
+  font-size:28px;
+  font-family:"Young Serif";    
+  line-height:1.7rem;
+  position:relative;
+  top:-55px;
+  left:-20px;
+  
+  
 }
 
 #prep3 li {
-  font-family:Outfit;
-  font-weight:400;
-  font-size:16px;
+ font-size:16.4px;
   color:black;
+  font-weight:400;
+  font-family:Outfit;
+  position:relative;
+  left:20px;
+  margin:12px;
+  top:12px;
+  line-height:1.3em;
+  padding-left:20px;
 }
 
-hr {
+
+#prep3 li::marker {
+  color:hsl(332, 51%, 32%);
+}
+
+.special-one {
   border:1px hsl(30, 18%, 87%) solid;
+  position:relative;
+  top:-38px;
 }
 
 #prep4 {
@@ -133,27 +153,166 @@ hr {
   color:hsl(332, 51%, 32%);
   font-weight:500;
   font-size:26px;
-  font-family:"Young Serif"
+  font-family:"Young Serif";
+  position:relative;
+  top:-34px;
+  left:-20px;
 }
 
 #prep4 li {
-  font-family:Outfit;
+ font-size:16px;
+  color:black;
   font-weight:400;
-  font-size:16px;
-  color:hsl(24, 5%, 18%);
+  font-family:Outfit;
+  position:relative;
+  left:8px;
+  margin:12px;
+  top:12px;
+  line-height:1.36em;
+  padding-left:13px;
+}
+
+#prep4 li::marker {
+  color:hsl(332, 51%, 32%);
+  font-weight:bold;
+}
+
+
+.special {
+  border:1px hsl(30, 18%, 87%) solid;
+  position:relative;
+  top:-20px;
 }
 
 .prep5 {
-   line-height:30px;
+  line-height:30px;
   color:hsl(332, 51%, 32%);
   font-weight:500;
-  font-size:26px;
-  font-family:"Young Serif"
+  font-family:"Young Serif";
+  position:relative;
+  top:-17px;
+  font-size:28px;
+  left:20px;
 }
 
 .prep-p {
+  font-size:16px;
+  color:black;
+  font-weight:400;
+  font-family:Outfit;
+  position:relative;
+  left:10px;
+  margin:12px;
+  top:-22px;
+  line-height:1.37em;
+}
+
+hr {
+  border:1px hsl(30, 18%, 87%) solid;
+  position:relative;
+  top:-14px;
+}
+
+.names {
   font-family:Outfit;
   font-weight:400;
-  font-size:16px;
+  font-size:16.4px;
   color:hsl(24, 5%, 18%); 
+  padding-left:30px;
+  line-height:1.5;
+  
 }
+
+.grams {
+  font-family:Outfit;
+  font-weight:400;
+  font-size:16.4px;
+  color:hsl(332, 51%, 32%);
+  padding-left:248px;
+  position:relative;
+  text-align:center;
+  
+}
+
+table {
+  position:relative;
+  top:-12px;
+  border-collapse:separate;
+  table-layout:fixed;
+  width:28%;
+}
+
+
+@media (max-width: 455px) {
+  
+  
+  body{
+  margin:0 auto;
+  padding:0 auto;
+  max-width:455px;
+  height:2040px;
+ 
+  }
+  
+  .container{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr;
+    width:455px;
+    
+  }
+  
+  picture{
+  display:grid;
+  height:170px;
+  margin-left:0 !important;
+  margin-right:0 !important;
+  margin-top:0;
+  margin-bottom:0;
+  grid-area:1 / 1 / 1 / 1;
+}
+
+.omlette {
+  display:grid;
+  height:170px;
+  width:90%;
+  grid-area:1 / 1 / 1 / 1;
+  border-radius:0;
+}
+  
+  h1 {
+  position:relative;
+  top:-22px;
+  text-align:left;
+  font-size:40px;
+  font-family:"Young Serif";
+  font-weight:400;
+  line-height:40px;
+}
+
+p {
+  display:flex;
+  flex-direction:row;
+  width:315px;
+  justify-content:center;
+  align-items:center;
+  text-align:left;
+  position:relative;
+  top:-25px;
+  font-size:16px;
+  font-family:Outfit;
+  color:hsl(24, 5%, 18%);
+  line-height:1.6em;
+  
+}
+  
+  
+  
+  table {
+    width:80%;
+    padding-left:0px;
+  }
+  
+  .grams {
+    padding-left:0px;
+  }
