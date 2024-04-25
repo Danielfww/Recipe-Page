@@ -15,9 +15,13 @@ Challenges I faced:
 
 I understimated this project really badly. Looking at the projects I did in the past this actually looked easy in my eyes.
 It wasn't - atleast for me it wasn't.
+<br>
 -I struggled with making a table on the bottom of the page;
+<br>
 -I have to definetly refresh on my Semantic HTML - using main & picture its definetly not enough;
+<br>
 -I looked at the design they made for 375px but I do not have a device like that so I went with 430px+ so I can actually see the mobile version of this on my phone;
+<br>
 <br>
 The thing I'm proud of - I think the layout for this project will look amazing - still a lot of things to change but I'm getting better with measuring paddings, pixels and margins.
 
