@@ -243,40 +243,41 @@ table {
 }
 
 
-@media (max-width: 475px) {
+@media (max-width:435px) {
   
+ 
   
   body{
   margin:0 auto;
   padding:0 auto;
-  max-width:475px;
   height:2040px;
+  width:435px;
  
   }
   
   .container{
-    display:grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns:1fr;
-    width:475px;
-    
+    width:435px;
+    height:2040px;
+    border-radius:0px;
+    margin-left:auto;
+    margin-right:auto;
   }
   
+  
   picture{
-  display:grid;
   height:170px;
   margin-left:0 !important;
   margin-right:0 !important;
   margin-top:0;
   margin-bottom:0;
-  grid-area:1 / 1 / 1 / 1;
+  width:385px;
 }
 
 .omlette {
-  display:grid;
+  left:30px;
+  position:relative;
   height:170px;
-  width:90%;
-  grid-area:1 / 1 / 1 / 1;
+  width:375px;
   border-radius:0;
 }
   
@@ -284,10 +285,10 @@ table {
   position:relative;
   top:-22px;
   text-align:left;
-  font-size:40px;
+  font-size:36px;
   font-family:"Young Serif";
   font-weight:400;
-  line-height:40px;
+  line-height:36px;
 }
 
 p {
@@ -298,21 +299,94 @@ p {
   align-items:center;
   text-align:left;
   position:relative;
-  top:-25px;
+  top:-20px;
   font-size:16px;
   font-family:Outfit;
   color:hsl(24, 5%, 18%);
-  line-height:1.6em;
+  line-height:1.5em;
   
 }
   
+  .prep {
+    display:flex;
+    flex-direction:row;
+    position:relative;
+    top:-10px;
+    width:87%;
+    justify-content:center;
+    align-items:center;
+  }
   
+  
+  
+  #prep2
+  {
+    position:relative;
+    left:-25px;
+    top:1px;
+    line-height:20px;
+   
+  }
+  
+  #li {
+    font-size:16px;
+  }
+  
+  
+  #prep3 
+  {
+    position:relative;
+    top:-15px;
+    left:-35px;
+  }
+  
+  .special-one {
+    position:relative;
+    top:0px;
+  }
+  
+  #prep4 
+  {
+    position:relative;
+    top:10px;
+    left:-35px;
+  }
+  
+  .special {
+    position:relative;
+    top:40px;
+  }
+  
+  .prep5
+  {
+    position:relative;
+    top:50px;
+    left:-90px;
+  }
+  
+  .prep-p{
+    position:relative;
+      top:40px;
+    left:-10px;
+    line-height:25px;
+    font-size:16.2px;
+  }
   
   table {
-    width:80%;
-    padding-left:0px;
+    position:relative;
+    top:45px;
+    width:10%;
+    
   }
   
-  .grams {
-    padding-left:0px;
+
+  
+  .grams{
+    padding-left:150px;
   }
+  
+  hr{
+    position:relative;
+    top:45px;
+  }
+}
