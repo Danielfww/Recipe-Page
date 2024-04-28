@@ -1,83 +1,91 @@
-  <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title> Recipe FrontEnd Mentor </title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <main>
-<div class="container">
-  <picture>
-    <img class="omlette" src="https://assets.codepen.io/11868974/image-omelette.jpeg" alt="omlette" />
-  </picture>
-  <div class="recipe">
-    <h1> Simple Omelette Recipe </h1>
-    <p> An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.
-    </p>
- 
-  <div class="prep">
-    <ul id="prep2">Preparation time
-      <li id="li"><b>Total</b>: Approximately 10 minutes</li>
-      <li id="li"><b>Preparation</b>: 5 minutes </li>
-      <li id="li"><b>Cooking</b>: 5 minutes</li>
-    </ul>
-       </div>
-    <br>
-    
-    <ul id="prep3"> Ingredients
-      <li> 2-3 large eggs</li> 
-      <li>Salt, to taste</li>
-      <li> Pepper, to taste</li>
-      <li> 1 tablespoon of butter or oil </li>
-      <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs </li>
-    </ul>
-    <hr class="special-one">
-    <ol id="prep4">Instructions
-      <li><b>Beat the eggs</b>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.
-        <li><b>Heat the pan</b>: Place a non-stick frying pan over medium heat and add butter or oil. 
-        <li><b>Cook the omelette</b>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface. 
-       <li><b> Add fillings (optional)</b>: When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette. 
-       <li><b> Fold and serve</b>: As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate. 
-       <li><b> Enjoy</b>: Serve hot, with additional salt and pepper if needed.</ol>
-    <hr class="special">
-    <p class="prep5"> Nutrition</p> 
-    <p class="prep-p">The table below shows nutritional values per serving without the additional fillings.</p>
-    
-<table>
-  <tr>
-    <td class="names">Calories</td>
-    <td class="grams"><b>277kcal</b></td>
-  </tr>
+  <div class="container">
+    <picture>
+      <img class="omlette" src="https://assets.codepen.io/11868974/image-omelette.jpeg" alt="omlette" />
+    </picture>
+    <div class="recipe">
+      <section>
+        <h1> Simple Omelette Recipe </h1>
+        <p> An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+        </p>
+        <div class="prep">
+          <ul id="prep2">Preparation time
+            <li id="extra-li-1"><b>Total</b>: Approximately 10 minutes</li>
+            <li id="extra-li-2"><b>Preparation</b>: 5 minutes </li>
+            <li id="extra-li-3"><b>Cooking</b>: 5 minutes</li>
+          </ul>
+        </div>
+        <br>
+      </section>
+      <section>
+        <ul id="prep3"> Ingredients
+          <li> 2-3 large eggs</li>
+          <li>Salt, to taste</li>
+          <li> Pepper, to taste</li>
+          <li> 1 tablespoon of butter or oil </li>
+          <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs </li>
+        </ul>
+      </section>
+      <hr class="special-one">
+      <section>
+        <ol id="prep4">Instructions
+          <li><b>Beat the eggs</b>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
+          <li><b>Heat the pan</b>: Place a non-stick frying pan over medium heat and add butter or oil. </li>
+          <li><b>Cook the omelette</b>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface. </li>
+          <li><b> Add fillings (optional)</b>: When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette. </li>
+          <li><b> Fold and serve</b>: As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
+          <li><b> Enjoy</b>: Serve hot, with additional salt and pepper if needed.</li>
+        </ol>
+      </section>
+      <hr class="special">
+      <section>
+        <p class="prep5"> Nutrition</p>
+        <p class="prep-p">The table below shows nutritional values per serving without the additional fillings.</p>
+      </section>
+      <table>
+        <tr>
+          <td class="names">Calories</td>
+          <td class="grams"><b>277kcal</b></td>
+        </tr>
       </table>
-  <hr>
-    <table>
-  <tr>
-    <td class="names">Carbs</td>
-    <td class="grams"><b>0g<b></td>
-  </tr>
-    </table>
-  <hr>
-  <table>
-  <tr>
-    <td class="names">Protein</td>
-    <td class="grams"><b>20g</b></td>
-  </tr>
+      <hr>
+      <table>
+        <tr>
+          <td class="names">Carbs</td>
+          <td class="grams"><b>0g</b></td>
+        </tr>
       </table>
-  <hr>
-  <table>
-  <tr>
-    <td class="names">Fat</td>
-    <td class="grams"><b>22g</b></td>
-  </tr>
-</table>
-      </main>
-</div>
+      <hr>
+      <table>
+        <tr>
+          <td class="names">Protein</td>
+          <td class="grams"><b>20g</b></td>
+        </tr>
+      </table>
+      <hr>
+      <table>
+        <tr>
+          <td class="names">Fat</td>
+          <td class="grams"><b>22g</b></td>
+        </tr>
+      </table>
+    </div>
+  </div>
 </body>
+</html>
